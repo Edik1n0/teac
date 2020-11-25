@@ -1,0 +1,391 @@
+/* Footer */
+
+.footer {
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      text-decoration: none;
+      color: purple;
+      transition: all 0.5s;
+    }
+  }
+
+  .secciones-footer {
+    display: flex;
+    background: $morado;
+    text-align: center;
+    color: $blanco;
+    padding: 20px;
+    height: 440px;
+
+    .f-secser {
+      .fss-body {
+        ul {
+          li {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+
+    .f-secser,
+    .f-seccont,
+    .f-seclog {
+      width: 30%;
+      margin-left: 30px;
+    }
+
+    .f-seccont {
+      .fcont-a {
+        .whats,
+        .email,
+        .tel {
+          margin-top: 20px;
+          img {
+            width: 24px;
+            margin-right: 16px;
+          }
+        }
+      }
+
+      .fcont-b {
+        margin-top: 40px;
+
+        .social {
+          display: flex;
+          margin-left: 68px;
+          margin-top: 40px;
+
+          img {
+            width: 60px;
+            margin-left: 30px;
+
+            &:hover {
+              opacity: 80%;
+              transition: all 0.5s;
+            }
+          }
+        }
+      }
+    }
+
+    .f-secser {
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+    }
+
+    .f-seclog {
+      .logo-footer {
+        a {
+          img {
+            width: 90px;
+            &:hover {
+              opacity: 90%;
+              transition: all 0.5s;
+            }
+          }
+        }
+      }
+
+      .dir-footer {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  .derechos {
+    background: #73418a;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+
+    p {
+      background: #73418a;
+      color: white;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .footer {
+    background: $morado;
+    height: 1080px;
+    padding-top: 40px;
+    .secciones-footer {
+      display: block;
+      width: 280px;
+
+      .f-seccont {
+        width: 280px;
+        margin-top: 80px;
+        margin-left: 0px;
+        display: block;
+
+        .fcont-a {
+          width: 280px;
+          margin-left: 0px;
+        }
+
+        .fcont-b {
+          width: 280px;
+          .social {
+            display: flex;
+            margin-left: 0px;
+            padding-left: 6px;
+
+            img {
+              width: 50px;
+            }
+          }
+        }
+      }
+
+      .f-secser {
+        margin-left: 2px;
+        width: 280px;
+      }
+
+      .f-seclog {
+        margin-top: 80px;
+        display: block;
+        width: 280px;
+        margin-left: 0px;
+
+        img {
+          margin-top: 20px;
+        }
+
+        .dir-footer {
+          a {
+            margin-top: 40px;
+
+            img {
+              margin-top: 0px;
+            }
+          }
+        }
+      }
+    }
+
+    .derechos {
+      position: relative;
+      top: 580px;
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .footer {
+    background: $morado;
+    height: 1080px;
+    padding-top: 40px;
+    .secciones-footer {
+      display: block;
+      width: 350px;
+
+      .f-seccont {
+        width: 340px;
+        margin-top: 80px;
+        margin-left: 0px;
+        display: block;
+
+        .fcont-a {
+          width: 340px;
+          margin-left: 0px;
+        }
+
+        .fcont-b {
+          width: 340px;
+          .social {
+            display: flex;
+            margin-left: 0px;
+            padding-left: 32px;
+
+            img {
+              width: 50px;
+            }
+          }
+        }
+      }
+
+      .f-secser {
+        margin-left: 2px;
+        width: 340px;
+      }
+
+      .f-seclog {
+        margin-top: 80px;
+        display: block;
+        width: 340px;
+        margin-left: 0px;
+
+        img {
+          margin-top: 20px;
+        }
+
+        .dir-footer {
+          a {
+            margin-top: 40px;
+
+            img {
+              margin-top: 0px;
+            }
+          }
+        }
+      }
+    }
+
+    .derechos {
+      position: relative;
+      top: 580px;
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .footer {
+    background: $morado;
+    height: 1080px;
+    padding-top: 40px;
+    .secciones-footer {
+      display: block;
+      width: 360px;
+      margin-left: 18px;
+
+      .f-seccont {
+        width: 320px;
+        margin-top: 80px;
+        margin-left: 0px;
+        display: block;
+
+        .fcont-a {
+          width: 320px;
+          margin-left: 0px;
+        }
+
+        .fcont-b {
+          width: 320px;
+          .social {
+            display: flex;
+            margin-left: 0px;
+            padding-left: 20px;
+
+            img {
+              width: 50px;
+            }
+          }
+        }
+      }
+
+      .f-secser {
+        margin-left: 2px;
+        width: 320px;
+      }
+
+      .f-seclog {
+        margin-top: 80px;
+        display: block;
+        width: 320px;
+        margin-left: 0px;
+
+        img {
+          margin-top: 20px;
+        }
+
+        .dir-footer {
+          a {
+            margin-top: 40px;
+
+            img {
+              margin-top: 0px;
+            }
+          }
+        }
+      }
+    }
+
+    .derechos {
+      position: relative;
+      top: 580px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .footer {
+    background: $morado;
+    height: 1080px;
+    padding-top: 40px;
+    .secciones-footer {
+      display: block;
+      width: 360px;
+      margin-left: 18px;
+
+      .f-seccont {
+        width: 320px;
+        margin-top: 80px;
+        margin-left: 0px;
+        display: block;
+
+        .fcont-a {
+          width: 320px;
+          margin-left: 0px;
+        }
+
+        .fcont-b {
+          width: 320px;
+          .social {
+            display: flex;
+            margin-left: 0px;
+            padding-left: 20px;
+
+            img {
+              width: 50px;
+            }
+          }
+        }
+      }
+
+      .f-secser {
+        margin-left: 2px;
+        width: 320px;
+      }
+
+      .f-seclog {
+        margin-top: 80px;
+        display: block;
+        width: 320px;
+        margin-left: 0px;
+
+        img {
+          margin-top: 20px;
+        }
+
+        .dir-footer {
+          a {
+            margin-top: 40px;
+
+            img {
+              margin-top: 0px;
+            }
+          }
+        }
+      }
+    }
+
+    .derechos {
+      position: relative;
+      top: 580px;
+    }
+  }
+}
+
+
+/* Fin Footer */

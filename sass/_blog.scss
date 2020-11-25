@@ -1,0 +1,91 @@
+@import "variables";
+
+.blog {
+  margin-top: 80px;
+  .blog__header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .blog__body {
+    .fila {
+      display: flex;
+      justify-content: center;
+      .articulo {
+        margin: 20px;
+        opacity: 80%;
+        text-align: center;
+        &:hover {
+          cursor: pointer;
+          transition: all 0.8s;
+          opacity: 100%;
+        }
+
+        a {
+          text-decoration: none;
+
+          img {
+            width: 280px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .blog {
+    .blog__body {
+      .fila {
+        display: block;
+        .articulo {
+          a {
+            img {
+              width: 220px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .blog {
+    .blog__body {
+      .fila {
+        display: block;
+        .articulo {
+          a {
+            img {
+              width: 280px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .blog {
+    .blog__body {
+      .fila {
+        display: block;
+        .articulo {
+          margin-left: 12px;
+          a {
+            .card {
+              width: 360px;
+              img {
+                width: 320px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

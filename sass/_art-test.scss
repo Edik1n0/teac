@@ -1,0 +1,199 @@
+@import "variables";
+
+.miga {
+  padding-top: 60px;
+  margin-bottom: -20px;
+
+  a {
+    text-decoration: none;
+    color: $negro;
+    font-size: 16px;
+    &:hover {
+      transition: all 0.6s;
+      color: $morado;
+      text-decoration: none;
+    }
+  }
+}
+
+.art__test {
+  background: $mortr;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 40px;
+
+  .art__head {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .art__body {
+    img {
+      height: 380px;
+    }
+
+    .art__txt {
+      img {
+        margin: 20px;
+      }
+
+      .finart__img {
+        margin-left: 100px;
+      }
+
+      .wp-block-image {
+        display: flex;
+        justify-content: flex-start;
+
+        ul {
+          padding-top: 20px;
+          li {
+            margin-top: 20px;
+          }
+        }
+
+        .img__med {
+          width: 860px;
+        }
+
+        p {
+          margin-top: 80px;
+        }
+
+        img {
+          margin: 20px;
+          height: 280px;
+        }
+      }
+    }
+  }
+}
+
+.comments__box {
+  background: $mortr;
+  width: 100%;
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  .container {
+    .comment__ej {
+      background: $blanco;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      strong {
+        color: $morado;
+      }
+    }
+  }
+
+  .cb__body {
+    background: $blanco;
+    border-radius: 6px;
+    padding: 40px;
+    .cb__form {
+      padding: 20px;
+      form {
+        .form-group {
+          display: grid;
+          input {
+            font-weight: lighter;
+            font-style: italic;
+            width: 360px;
+            height: 34px;
+            border-radius: 6px;
+            padding-left: 10px;
+            &:hover {
+              transition: all 0.6s;
+              background: $mortr;
+              -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+              -moz-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+              box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+            }
+          }
+
+          textarea {
+            font-weight: lighter;
+            font-style: italic;
+            width: 440px;
+            height: 180px;
+            border-radius: 6px;
+            padding-left: 10px;
+            &:hover {
+              transition: all 0.6s;
+              background: $mortr;
+              -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+              -moz-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+              box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .comments__box {
+    padding: 10px;
+
+    .cb__body {
+      padding: 10px;
+      .cb__form {
+        padding: 0px;
+        form {
+          .form-group {
+            input,
+            textarea {
+              width: 260px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .comments__box {
+    padding: 10px;
+
+    .cb__body {
+      padding: 10px;
+      .cb__form {
+        padding: 0px;
+        form {
+          .form-group {
+            input,
+            textarea {
+              width: 320px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .comments__box {
+    padding: 10px;
+
+    .cb__body {
+      padding: 10px;
+      .cb__form {
+        padding: 0px;
+        form {
+          .form-group {
+            input,
+            textarea {
+              width: 320px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

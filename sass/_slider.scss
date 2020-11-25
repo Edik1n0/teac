@@ -1,0 +1,52 @@
+@import "variables";
+
+.slider {
+  img {
+    width: 100%;
+  }
+}
+
+.slogan {
+  background: $morado;
+  color: $blanco;
+  text-align: center;
+  font-size: 30px;
+  height: 120px;
+  p {
+    font-size: 32px;
+    padding-top: 6px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .slogan {
+    height: 100px;
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .slogan {
+    height: 80px;
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .slogan {
+    height: 80px;
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .slogan {
+    height: 260px;
+  }
+}

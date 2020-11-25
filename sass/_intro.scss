@@ -1,0 +1,137 @@
+@import "variables";
+
+/* Primera sección */
+
+.intro-content {
+  margin-top: 160px;
+  display: flex;
+
+  .logo-intro {
+    img {
+      width: 440px;
+    }
+  }
+
+  .txt-intro {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+
+    a {
+      color: $morado;
+      text-decoration: none;
+      &:hover {
+        color: purple;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .container {
+    .intro-content {
+      display: block;
+      margin-left: 20px;
+
+      .logo-intro {
+        img {
+          width: 280px;
+          margin-left: -20px;
+          margin-top: -90px;
+        }
+      }
+
+      .txt-intro {
+        margin-top: 14px;
+        width: 280px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: -22px;
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .container {
+    .intro-content {
+      display: block;
+      margin-left: 20px;
+
+      .logo-intro {
+        img {
+          width: 340px;
+          margin-left: -20px;
+          margin-top: -90px;
+        }
+      }
+
+      .txt-intro {
+        margin-top: 14px;
+        width: 340px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: -22px;
+      }
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .container {
+    .intro-content {
+      display: block;
+      margin-left: 20px;
+
+      .logo-intro {
+        img {
+          width: 380px;
+          margin-left: -20px;
+          margin-top: -90px;
+        }
+      }
+
+      .txt-intro {
+        margin-top: 14px;
+        width: 380px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: -22px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .container {
+    .intro-content {
+      display: block;
+      margin-left: 20px;
+
+      .logo-intro {
+        img {
+          width: 380px;
+          margin-left: -20px;
+          margin-top: -90px;
+        }
+      }
+
+      .txt-intro {
+        margin-top: 14px;
+        width: 380px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: -22px;
+      }
+    }
+  }
+}
+
+/* Fin Primera sección */

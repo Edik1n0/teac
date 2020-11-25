@@ -1,0 +1,435 @@
+@import "variables";
+
+.access-form {
+  margin-bottom: 120px;
+  .container {
+    .card {
+      margin-top: 120px;
+      text-align: center;
+      .card-body {
+        .aform {
+          .formi {
+            margin-left: 300px;
+            display: block;
+            border: 1px solid $morado;
+            width: 480px;
+            padding: 10px;
+            .form-group {
+              margin: 10px;
+              display: block;
+              .form-control {
+                &:hover {
+                  transition: all 0.6s;
+                  background: $mortr;
+                  -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+                  -moz-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+                  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+                }
+              }
+            }
+            .msg-err {
+              font-size: 16px;
+              color: $morado;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  background: $mboot;
+  text-align: center;
+  height: 60px;
+  padding-top: 16px;
+  a {
+    color: $blanco;
+    text-decoration: none;
+    font-size: 18px;
+    &:hover {
+      color: $blanco;
+      text-decoration: none;
+      font-size: 20px;
+    }
+  }
+}
+
+.indi {
+  .indi__header {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .container {
+    .nav__admin {
+      text-align: center;
+      display: block;
+      width: 320px;
+      padding: 14px;
+      margin-top: 120px;
+      margin-bottom: 120px;
+
+      ul {
+        list-style: none;
+        padding: 8px;
+        li {
+          margin: 10px;
+          margin-top: 16px;
+          a {
+            color: $mboot;
+            text-decoration: none;
+            font-size: 16px;
+            &:hover {
+              color: $morado;
+              transition: all 0.6s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.historial {
+  display: block;
+  .histo__header {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .bhisto {
+    .container {
+      display: flex;
+
+      .panel {
+        .container {
+          .nav__admin {
+            text-align: center;
+            display: block;
+            width: 320px;
+            padding: 14px;
+            margin-top: 120px;
+            margin-bottom: 120px;
+
+            ul {
+              list-style: none;
+              padding: 8px;
+              li {
+                margin: 10px;
+                margin-top: 16px;
+                a {
+                  color: $mboot;
+                  text-decoration: none;
+                  font-size: 16px;
+                  &:hover {
+                    color: $morado;
+                    transition: all 0.6s;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .formu {
+        width: 740px;
+        margin-left: 120px;
+        form {
+          .form-control {
+            &:hover {
+              transition: all 0.6s;
+              background: $mortr;
+              -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+              -moz-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+              box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+            }
+          }
+          .userInfo {
+            .form-control {
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.historall {
+  .hall__header {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .hall__body {
+    display: flex;
+    .pan__historias {
+      margin-left: 120px;
+      .all {
+        margin-top: 80px;
+        width: 820px;
+        padding: 20px;
+        .all_header {
+          text-align: center;
+        }
+
+        .all__body {
+          display: block;
+          text-align: center;
+
+          a {
+            color: $negro;
+            text-decoration: none;
+            &:hover {
+              transition: all 0.6s;
+              color: $mboot;
+              text-decoration: none;
+            }
+          }
+          .btn {
+            border-radius: 50%;
+            color: $blanco;
+            &:hover {
+              color: $blanco;
+            }
+          }
+        }
+      }
+    }
+
+    .panel {
+      margin-left: 120px;
+      .container {
+        .nav__admin {
+          text-align: center;
+          display: block;
+          width: 320px;
+          padding: 14px;
+          margin-top: 120px;
+          margin-bottom: 120px;
+
+          ul {
+            list-style: none;
+            padding: 8px;
+            li {
+              margin: 10px;
+              margin-top: 16px;
+              a {
+                color: $mboot;
+                text-decoration: none;
+                font-size: 16px;
+                &:hover {
+                  color: $morado;
+                  transition: all 0.6s;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.user__inf {
+  display: flex;
+  .panel {
+    margin-left: 120px;
+    .container {
+      .nav__admin {
+        text-align: center;
+        display: block;
+        width: 320px;
+        padding: 14px;
+        margin-top: 120px;
+        margin-bottom: 120px;
+
+        ul {
+          list-style: none;
+          padding: 8px;
+          li {
+            margin: 10px;
+            margin-top: 16px;
+            a {
+              color: $mboot;
+              text-decoration: none;
+              font-size: 16px;
+              &:hover {
+                color: $morado;
+                transition: all 0.6s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    margin-top: 60px;
+    margin-bottom: 540px;
+    width: 90%;
+    text-align: center;
+
+    .ui__body {
+      .ua_head {
+        margin-top: 40px;
+        background: $mboot;
+        color: $blanco;
+        height: 44px;
+        padding-top: 6px;
+      }
+      .uisec {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .u_desc {
+        text-align: start;
+        padding: 10px;
+        h4 {
+          margin-top: 30px;
+          margin-bottom: 20px;
+        }
+
+        .f_desc {
+          margin-top: 20px;
+        }
+
+        .u_descri {
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .art__test {
+    padding: 10px;
+    .art__body {
+      .img_art {
+        img {
+          width: 270px;
+          height: 180px;
+        }
+      }
+
+      .art__txt {
+        .wp-block-image {
+          display: block;
+          margin: 0px;
+          img {
+            width: 270px;
+            height: 180px;
+            margin: 0px;
+          }
+        }
+
+        .finart__img {
+          margin-left: 0px;
+          width: 270px;
+          height: 140px;
+        }
+      }
+
+      .campanared {
+        img {
+          width: 270px;
+          height: 220px;
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .art__test {
+    padding: 10px;
+    .art__body {
+      .img_art {
+        img {
+          width: 320px;
+          height: 220px;
+        }
+      }
+
+      .art__txt {
+        .wp-block-image {
+          display: block;
+          margin: 0px;
+          img {
+            width: 320px;
+            height: 220px;
+            margin: 0px;
+          }
+        }
+
+        .finart__img {
+          margin-left: 0px;
+          width: 320px;
+          height: 160px;
+        }
+      }
+
+      .campanared {
+        img {
+          width: 320px;
+          height: 260px;
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 411px) and (max-width: 767px) {
+  .art__test {
+    padding: 10px;
+    .art__body {
+      .img_art {
+        img {
+          width: 360px;
+          height: 220px;
+        }
+      }
+
+      .art__txt {
+        .wp-block-image {
+          display: block;
+          margin: 0px;
+          img {
+            width: 360px;
+            height: 280px;
+            margin: 0px;
+          }
+        }
+
+        .finart__img {
+          margin-left: 0px;
+          width: 360px;
+          height: 200px;
+        }
+      }
+
+      .campanared {
+        img {
+          width: 360px;
+          height: 300px;
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}

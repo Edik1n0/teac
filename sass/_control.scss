@@ -1,0 +1,139 @@
+@import "variables";
+
+/* Acceso */
+
+.acc {
+  h1 {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .f-acceso {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    .card {
+      width: 30%;
+      margin-top: 20px;
+
+      form {
+        margin-top: 10px;
+
+        .form-group {
+          .form-control {
+            &:hover {
+              background: $mortr;
+              transition: all 0.6s;
+              -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+              -moz-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+              box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+            }
+          }
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+  margin-bottom: 102px;
+}
+
+.control__footer {
+  footer {
+    width: 100%;
+    background: $mboot;
+    text-align: center;
+    a {
+      color: $blanco;
+    }
+  }
+}
+
+/* Fin Acceso */
+
+/* Panel */
+
+.panel {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 24px;
+}
+
+.ger {
+  width: 40%;
+  text-align: center;
+  padding: 20px;
+
+  .ger__img {
+    margin-top: 20px;
+    img {
+      width: 740px;
+      height: 360px;
+      margin-left: -80px;
+    }
+  }
+}
+
+/* Fin Panel */
+
+/* Nav Control */
+
+.nv_admin {
+  width: 400px;
+  .container {
+    display: block;
+    width: 390px;
+    text-align: center;
+    margin-left: 0;
+    padding-top: 40px;
+    .nv_menu {
+      ul {
+        padding: 0px;
+        list-style: none;
+        li {
+          margin-top: 40px;
+          margin-bottom: 50px;
+          a {
+            color: $mboot;
+            text-decoration: none;
+            &:hover {
+              transition: all .6s;
+              text-decoration: none;
+              color: $morado;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Fin Nav Control */
+
+/* Historias */
+
+.col-mx-8 {
+  .histo_head {
+    text-align: center;
+  }
+
+  .container {
+    .card-title {
+      text-align: center;
+    }
+
+    .aform {
+      form {
+        .form-group {
+          margin-top: 14px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+/* Fin Historias */
